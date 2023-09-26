@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@studio-freight/lenis": "^1.0.23",
+    "split-type": "^0.3.3"
+  }
+}

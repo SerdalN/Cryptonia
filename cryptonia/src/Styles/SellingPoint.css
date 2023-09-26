@@ -1,0 +1,60 @@
+.main--container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 4rem 0;
+}
+.why--header {
+  font-size: 80px;
+  color: #fff;
+  letter-spacing: 2px;
+}
+.why--header span {
+  color: #a401f0;
+}
+.main--container--content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 3rem;
+}
+
+.Why--Img {
+  width: 300px;
+}
+.left--card,
+.right--card {
+  border: 1px solid #7c7c7c5e;
+  border-radius: 20px;
+  padding: 1rem 2rem;
+  color: #fff;
+  background-color: #a9aebd5e;
+  margin-bottom: 2rem;
+  transition: all 0.2s ease-in;
+}
+.left--card:hover {
+  transform: scale(1.1);
+}
+.right--card:hover {
+  transform: scale(1.1);
+}
+/* -------------------------------------------------- */
+
+@media (max-width: 1100px) {
+  .main--container--content {
+    flex-direction: column;
+    padding: 0 1rem;
+  }
+  .why--header {
+    font-size: 50px;
+    text-align: center;
+    padding: 0 1rem;
+  }
+  .left--card:hover {
+    transform: scale(1.04);
+  }
+  .right--card:hover {
+    transform: scale(1.04);
+  }
+}

@@ -1,0 +1,35 @@
+.footer--content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+}
+.footer--icons {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 40px;
+  margin-bottom: 3rem;
+  cursor: pointer;
+}
+.footer--icons a {
+  color: #fff;
+  text-decoration: none;
+}
+.footer--policy {
+  display: flex;
+  justify-content: space-evenly;
+  width: 400px;
+  color: #fff;
+  font-size: 30px;
+  cursor: pointer;
+}
+.footer--policy a {
+  text-decoration: none;
+  color: #fff;
+}
+.footer--policy a:hover {
+  color: #2247be;
+}
+.footer--icons a:hover {
+  color: #2247be;
+}

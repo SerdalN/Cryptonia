@@ -1,0 +1,10 @@
+.header--container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header--low {
+  font-size: 40px;
+  color: #fff;
+  margin: 0;
+}
